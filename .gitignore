@@ -18,6 +18,10 @@
 # misc
 .DS_Store
 *.pem
+.prettierignore
+*.sketch
+*.fig
+*.xd
 
 # debug
 npm-debug.log*

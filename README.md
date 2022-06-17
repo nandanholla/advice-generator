@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Advice Generator
 
-## Getting Started
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## The Challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
+
+## Screenshots
+
+![Desktop Screenshot](/assets/desktop.png "Desktop Screenshot")
+
+![Active State](/assets/active.png "Active state")
+
+![Mobile Screenshot](/assets/mobile.png "Mobile Screenshot")
+
+## Built with
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/nandanholla/advice-generator.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd project-folder-name
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  npm install
+```
 
-## Learn More
+Start the server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Layout
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The designs were created to the following widths:
 
-## Deploy on Vercel
+- Mobile: 375px
+- Desktop: 1440px
+## API Reference
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### [Advice Slip JSON API](https://api.adviceslip.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Get random advice
+
+```http
+  GET /api/advice
+```
+
+| HTTP Method | GET   |
+| :-------- | :------- | 
+| URL | [https://api.adviceslip.com/advice](https://api.adviceslip.com/advice) |
+| Description | Returns a random advice slip as a [slip object](https://api.adviceslip.com/#object-slip). |
+
+Note: _Advice is cached for 2 seconds. Any repeat-request within 2 seconds will return the same piece of advice._
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Light Cyan | ![#cee3e9](https://via.placeholder.com/10/cee3e9?text=+) #cee3e9 |
+| Neon Green | ![#52ffa8](https://via.placeholder.com/10/52ffa8?text=+) #52ffa8 |
+| Dark Grayish Blue | ![#323a49](https://via.placeholder.com/10/323a49?text=+) #323a49 |
+| Dark Blue | ![#1f2632](https://via.placeholder.com/10/1f2632?text=+) #1f2632 |
+
+## Author
+
+- Frontend Mentor - [@nandanholla](https://www.frontendmentor.io/profile/nandanholla)
+- Twitter - [@nandanholla](https://www.twitter.com/nandanholla)
