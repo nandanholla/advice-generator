@@ -84,10 +84,10 @@ Note: _Advice is cached for 2 seconds. Any repeat-request within 2 seconds will 
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Light Cyan | ![#cee3e9](https://via.placeholder.com/10/cee3e9?text=+) #cee3e9 |
-| Neon Green | ![#52ffa8](https://via.placeholder.com/10/52ffa8?text=+) #52ffa8 |
-| Dark Grayish Blue | ![#323a49](https://via.placeholder.com/10/323a49?text=+) #323a49 |
-| Dark Blue | ![#1f2632](https://via.placeholder.com/10/1f2632?text=+) #1f2632 |
+| Light Cyan | ![#cee3e9](http://via.placeholder.com/10/cee3e9?text=+) #cee3e9 |
+| Neon Green | ![#52ffa8](http://via.placeholder.com/10/52ffa8?text=+) #52ffa8 |
+| Dark Grayish Blue | ![#323a49](http://via.placeholder.com/10/323a49?text=+) #323a49 |
+| Dark Blue | ![#1f2632](http://via.placeholder.com/10/1f2632?text=+) #1f2632 |
 
 ## Author
 
