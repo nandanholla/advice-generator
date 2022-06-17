@@ -67,7 +67,7 @@ const Home = () => {
           {/* divider */}
 
           <div className="my-8">
-            <Image src={prefix + desktopDivider} alt="divider" />
+            <Image src={desktopDivider} alt="divider" />
           </div>
 
           {/* random advice button */}
