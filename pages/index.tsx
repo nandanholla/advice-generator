@@ -32,7 +32,7 @@ const Home = () => {
       <Head>
         <title>Advice Generator | Get random advice</title>
       </Head>
-      <main className="container flex justify-center items-center bg-dark-blue min-h-screen w-screen px-5 font-manrope">
+      <main className="container flex justify-center items-center bg-dark-blue min-h-screen min-w-full px-5 font-manrope">
 
         {/* Card */}
         <div className="shadow-md px-6 py-10 sm:p-10 rounded-xl bg-dark-grayish-blue h-fit sm:min-w-[520px] min-w-[340px] max-w-[340px] sm:max-w-[520px] relative">
