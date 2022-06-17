@@ -31,8 +31,8 @@ const Home = () => {
 
   return (
     <>
+      <html lang='en'></html>
       <Head>
-        <html lang='en-us' />
         <title>Advice Generator | Get random advice</title>
         <meta name="description" content="Random advice generator using Advice API" />
         <link rel="shortcut icon" href={prefix + "/favicon.ico"} type="image/x-icon" />
