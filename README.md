@@ -10,6 +10,14 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
+## Demo
+
+Live Site: [https://advice-generator-nh.vercel.app/](https://advice-generator-nh.vercel.app/)
+
+## Links
+
+Solution URL: [https://www.frontendmentor.io/solutions/random-advice-generator-using-nextjs-1xwvNbKjSR](https://www.frontendmentor.io/solutions/random-advice-generator-using-nextjs-1xwvNbKjSR)
+
 ## Screenshots
 
 ![Desktop Screenshot](/assets/desktop.png "Desktop Screenshot")
