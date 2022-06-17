@@ -71,7 +71,7 @@ const Home = () => {
           </div>
 
           {/* random advice button */}
-          <button type='button' value="suffle button" className='rounded-full w-12 h-12 p-8 bg-neon-green flex justify-center items-center absolute -bottom-6 -translate-x-1/2 left-1/2 transition-shadow ease-in-out duration-300 hover:shadow-[0_0_30px_2px_rgba(0,0,0,1)] hover:shadow-neon-green' onClick={getAdvice}>
+          <button aria-label='shuffle button' className='rounded-full w-12 h-12 p-8 bg-neon-green flex justify-center items-center absolute -bottom-6 -translate-x-1/2 left-1/2 transition-shadow ease-in-out duration-300 hover:shadow-[0_0_30px_2px_rgba(0,0,0,1)] hover:shadow-neon-green' onClick={getAdvice}>
             <i className="fa-solid fa-dice-five text-dark-blue text-3xl"></i>
           </button>
 
