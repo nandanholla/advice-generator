@@ -31,7 +31,6 @@ const Home = () => {
 
   return (
     <>
-      <html lang='en'></html>
       <Head>
         <title>Advice Generator | Get random advice</title>
         <meta name="description" content="Random advice generator using Advice API" />
@@ -40,8 +39,7 @@ const Home = () => {
         <link rel="icon" type="image/png" sizes="32x32" href={prefix + "/favicon-32x32.png"} />
         <link rel="icon" type="image/png" sizes="16x16" href={prefix + "/favicon-16x16.png"} />
         <link rel="manifest" href={prefix + "/site.webmanifest"} />
-        <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
       </Head>
       <main className="container flex justify-center items-center bg-dark-blue min-h-screen w-screen px-5 font-manrope">
