@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import desktopDivider from '../public/pattern-divider-desktop.svg'
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
@@ -67,7 +66,7 @@ const Home = () => {
           {/* divider */}
 
           <div className="my-8">
-            <Image src={desktopDivider} alt="divider" />
+            <Image src='/pattern-divider-desktop.svg' width="444" height="16" alt="divider" />
           </div>
 
           {/* random advice button */}
