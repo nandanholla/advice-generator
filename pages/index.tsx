@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
-import desktopDivider from '../assets/pattern-divider-desktop.svg'
+import desktopDivider from '../public/pattern-divider-desktop.svg'
 
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
